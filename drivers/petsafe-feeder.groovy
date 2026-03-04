@@ -1,11 +1,9 @@
 /**
  *  PetSafe Smart Feed Driver for Hubitat
  *
- *  Copyright (c) 2024-2026 rbyrbt
+ *  Copyright 2026 rbyrbt
+ *  THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY. THE AUTHORS ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
  *
- *  Ported from homebridge-petsafe-smart-feed by dgreif
- *
- *  Licensed under the MIT License.
  */
 
 metadata {

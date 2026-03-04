@@ -1,11 +1,14 @@
 /**
  *  PetSafe Smart Feed Manager App for Hubitat
  *
- *  Copyright (c) 2024-2026 rbyrbt
+ *  Copyright 2026 rbyrbt
+ *  THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY. THE AUTHORS ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
+ *  Based on Homebridge integration homebridge-petsafe-smart-feed by dgreif https://github.com/dgreif/homebridge-petsafe-smart-feed
  *
- *  Ported from homebridge-petsafe-smart-feed by dgreif
+ *  REVISION HISTORY
  *
- *  Licensed under the MIT License.
+ *  v1.0   03-03-26   Initial release
+ *
  */
 
 definition(
