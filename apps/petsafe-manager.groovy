@@ -510,7 +510,7 @@ private void createFeederDevice(Map feeder) {
 
     try {
         def child = addChildDevice(
-            "rbyrbt.petsafe",
+            "rbyrbt",
             "PetSafe Smart Feeder",
             feeder.thing_name,
             [
