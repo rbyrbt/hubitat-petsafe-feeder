@@ -33,7 +33,8 @@ preferences {
     page(name: "discoverPage")
 }
 
-// Constants
+// ==================== Cognito Constants ====================
+// From parent project dgreif/homebridge-petsafe-smart-feed
 @groovy.transform.Field static final String PETSAFE_CLIENT_ID = "18hpp04puqmgf5nc6o474lcp2g"
 @groovy.transform.Field static final String COGNITO_REGION = "us-east-1"
 @groovy.transform.Field static final String COGNITO_URL = "https://cognito-idp.us-east-1.amazonaws.com/"
