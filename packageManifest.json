@@ -3,14 +3,14 @@
   "author": "rbyrbt",
   "version": "1.0.0",
   "minimumHEVersion": "2.1.9",
-  "dateReleased": "2025-03-01",
+  "dateReleased": "2026-03-06",
   "releaseNotes": "Initial HPM release.",
   "tags": "Pets & Animals",
   "apps": [
     {
       "id": "8f82c692-8028-4452-9fe6-e266465f9a1b",
       "name": "PetSafe Smart Feed Manager",
-      "namespace": "rbyrbt.petsafe",
+      "namespace": "rbyrbt",
       "location": "https://raw.githubusercontent.com/rbyrbt/hubitat-petsafe-feeder/main/apps/petsafe-manager.groovy",
       "required": true,
       "oauth": false
@@ -20,7 +20,7 @@
     {
       "id": "e3d19d31-35b4-4dde-bfd0-bfe7e908f124",
       "name": "PetSafe Smart Feeder",
-      "namespace": "rbyrbt.petsafe",
+      "namespace": "rbyrbt",
       "location": "https://raw.githubusercontent.com/rbyrbt/hubitat-petsafe-feeder/main/drivers/petsafe-feeder.groovy",
       "required": true
     }

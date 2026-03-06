@@ -2,12 +2,19 @@
  *  PetSafe Smart Feed Driver for Hubitat
  *
  *  Copyright 2026 rbyrbt
+ *  If you find this helpful, feel free to drop a tip https://ko-fi.com/rbyrbt
+ *
  *  THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY. THE AUTHORS ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
  *
  */
 
 metadata {
-    definition(name: "PetSafe Smart Feeder", namespace: "rbyrbt.petsafe", author: "rbyrbt", importUrl: "https://raw.githubusercontent.com/rbyrbt/hubitat-petsafe-feeder/main/drivers/petsafe-feeder.groovy") {
+    definition(
+        name: "PetSafe Smart Feeder",
+        namespace: "rbyrbt",
+        author: "rbyrbt",
+        importUrl: "https://raw.githubusercontent.com/rbyrbt/hubitat-petsafe-feeder/main/drivers/petsafe-feeder.groovy"
+    ) {
         capability "Switch"
         capability "Battery"
         capability "Refresh"
